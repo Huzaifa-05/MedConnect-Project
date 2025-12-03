@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | MedConnect</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-heart-pulse"></i> MedConnect
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="doctors.html">Find Doctors</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="btn-primary">Book Now</a>
+      </div>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="fade-in-up">About MedConnect</h1>
+      <p class="fade-in-up">Revolutionizing healthcare access in Pakistan.</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section section-padding">
+    <div class="container">
+      <div class="features-grid">
+        <div class="features-text fade-in-left">
+          <h2>Our Mission</h2>
+          <p>
+            At MedConnect, we believe that quality healthcare should be accessible to everyone, everywhere.
+            Our platform bridges the gap between patients and top-tier medical professionals,
+            making appointment booking seamless and efficient.
+          </p>
+          <p>
+            We are dedicated to improving patient outcomes through technology, ensuring that you can find
+            the right specialist when you need them most.
+          </p>
+
+          <div class="feature-list">
+            <h3>Why Choose Us?</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-check-circle"></i>
+                <div>
+                  <h4>Verified Specialists</h4>
+                  <p>Every doctor on our platform is thoroughly vetted for qualifications and experience.</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <h4>24/7 Availability</h4>
+                  <p>Book appointments anytime, anywhere, without waiting in long queues.</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-hand-holding-medical"></i>
+                <div>
+                  <h4>Patient-Centric Care</h4>
+                  <p>We prioritize your health and convenience above all else.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="features-image fade-in-right">
+          <div class="image-wrapper">
+            <img src="images/hero_medical_modern.png" alt="About MedConnect">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section (Optional but good for About page) -->
+  <section class="team-section section-padding bg-light">
+    <div class="container text-center">
+      <div class="section-header">
+        <h2>Meet Our Team</h2>
+        <p>The minds behind MedConnect</p>
+      </div>
+      <div class="specialty-grid" style="justify-content: center;">
+        <!-- Using simple cards for team members -->
+        <div class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Huzaifa Malik</h3>
+          <p>Co-Founder & Developer</p>
+        </div>
+        <div class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Muhammad Uzair</h3>
+          <p>Co-Founder & Developer</p>
+        </div>
+        <div class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Muhammad Ammar</h3>
+          <p>Co-Founder & Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>MedConnect</h3>
+        <p>Making healthcare accessible to everyone. Connect with the best doctors in your city.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="doctors.html">Find Doctors</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> Faisalabad, Pakistan</li>
+          <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+          <li><i class="fa-solid fa-envelope"></i> support@medconnect.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 MedConnect. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Scroll Animation Observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right').forEach((el) => {
+      observer.observe(el);
+    });
+
+    // Sticky Navbar
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+
+</html>

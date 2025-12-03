@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MedConnect | Modern Healthcare Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-heart-pulse"></i> MedConnect
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="doctors.html">Find Doctors</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="btn-primary">Book Now</a>
+      </div>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-text fade-in-up">
+        <h1>Your Health, Our Priority</h1>
+        <p>
+          Connect with top-rated specialists in Faisalabad. Experience modern
+          healthcare with instant online booking and virtual consultations.
+        </p>
+        <div class="hero-buttons">
+          <a href="#search-section" class="btn-primary pulse">Find a Doctor</a>
+          <a href="about.html" class="btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search Section -->
+  <section id="search-section" class="search-section">
+    <div class="container">
+      <div class="search-box fade-in-up">
+        <h2>Find Your Specialist</h2>
+        <form class="search-form">
+          <div class="form-group">
+            <i class="fa-solid fa-location-dot"></i>
+            <select name="city">
+              <option value="Faisalabad" selected>Faisalabad</option>
+              <option value="Lahore">Lahore</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <i class="fa-solid fa-user-doctor"></i>
+            <select name="specialty">
+              <option selected disabled>Select Specialty</option>
+              <option value="cardiologist">Cardiologist</option>
+              <option value="dermatologist">Dermatologist</option>
+              <option value="dentist">Dentist</option>
+              <option value="neurologist">Neurologist</option>
+              <option value="pediatrician">Pediatrician</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-search">
+            Search <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialties Grid -->
+  <section class="specialties section-padding">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Our Top Specialties</h2>
+        <p>Comprehensive care for you and your family</p>
+      </div>
+      <div class="specialty-grid">
+        <a href="specialties/Local/cardiologist.html" class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <h3>Cardiology</h3>
+          <p>Expert care for heart health and cardiovascular systems.</p>
+        </a>
+
+        <a href="specialties/Local/dermatologist.html" class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-spa"></i>
+          </div>
+          <h3>Dermatology</h3>
+          <p>Advanced treatments for skin, hair, and nail conditions.</p>
+        </a>
+
+        <a href="specialties/Local/dentist.html" class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-tooth"></i>
+          </div>
+          <h3>Dentistry</h3>
+          <p>Complete oral hygiene and dental procedures.</p>
+        </a>
+
+        <a href="specialties/Local/neurologist.html" class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3>Neurology</h3>
+          <p>Specialized care for brain and nervous system disorders.</p>
+        </a>
+
+        <a href="specialties/Local/pediatrician.html" class="specialty-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-baby"></i>
+          </div>
+          <h3>Pediatrics</h3>
+          <p>Compassionate healthcare for infants, children, and teens.</p>
+        </a>
+
+        <a href="doctors.html" class="specialty-card view-more">
+          <div class="icon-box">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <h3>View All</h3>
+          <p>Explore all our medical departments.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="features section-padding bg-light">
+    <div class="container">
+      <div class="features-grid">
+        <div class="features-text fade-in-left">
+          <h2>Why Choose MedConnect?</h2>
+          <p>We are committed to providing the best healthcare experience.</p>
+          <ul class="feature-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <h4>Verified Doctors</h4>
+                <p>All our specialists are vetted and highly experienced.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-check"></i>
+              <div>
+                <h4>Instant Booking</h4>
+                <p>Book appointments online 24/7 with immediate confirmation.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-shield-heart"></i>
+              <div>
+                <h4>Secure & Private</h4>
+                <p>Your medical data is kept safe and confidential.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="features-image fade-in-right">
+          <!-- Placeholder for a feature image, using hero for now or could generate another -->
+          <div class="image-wrapper">
+            <img src="images/hero_medical_modern.png" alt="Medical Features">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats section-padding">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h3>50+</h3>
+        <p>Specialists</p>
+      </div>
+      <div class="stat-item">
+        <h3>10k+</h3>
+        <p>Happy Patients</p>
+      </div>
+      <div class="stat-item">
+        <h3>24/7</h3>
+        <p>Support</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>MedConnect</h3>
+        <p>Making healthcare accessible to everyone. Connect with the best doctors in your city.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="doctors.html">Find Doctors</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> Faisalabad, Pakistan</li>
+          <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+          <li><i class="fa-solid fa-envelope"></i> support@medconnect.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 MedConnect. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="search.js"></script>
+  <script>
+    // Simple script for mobile menu and scroll animations
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Scroll Animation Observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right').forEach((el) => {
+      observer.observe(el);
+    });
+
+    // Sticky Navbar
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+
+</html>

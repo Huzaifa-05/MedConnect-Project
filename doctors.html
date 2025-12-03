@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Doctors | MedConnect</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-heart-pulse"></i> MedConnect
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="doctors.html" class="active">Find Doctors</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="#" class="btn-primary">Book Now</a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="fade-in-up">Our Medical Specialists</h1>
+            <p class="fade-in-up">Browse by specialty to find the right doctor for your needs.</p>
+        </div>
+    </header>
+
+    <!-- Doctors Section -->
+    <section class="doctors-section section-padding">
+        <div class="container">
+
+            <!-- Cardiology -->
+            <div class="specialty-group fade-in-up">
+                <div class="specialty-header">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <h3>Cardiologists</h3>
+                </div>
+                <div class="doctor-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_female.png" alt="Dr. Sarah Khan" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Sarah Khan</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Faisalabad</p>
+                            <p class="qualifications">MBBS, FCPS (Cardiology)</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.5)</span>
+                            </div>
+                            <a href="doctors/cardio-sarahkhan.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_male.png" alt="Dr. Ahmed Raza" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Ahmed Raza</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Lahore</p>
+                            <p class="qualifications">MBBS, MRCP (UK), FACC</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <a href="doctors/cardio-ahmadraza.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dermatology -->
+            <div class="specialty-group fade-in-up">
+                <div class="specialty-header">
+                    <i class="fa-solid fa-user-nurse"></i>
+                    <h3>Dermatologists</h3>
+                </div>
+                <div class="doctor-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_male.png" alt="Dr. Ali Raza" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Ali Raza</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Faisalabad</p>
+                            <p class="qualifications">MBBS, MD Dermatology</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(3.5)</span>
+                            </div>
+                            <a href="doctors/derma-aliraza.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_female.png" alt="Dr. Sana Iqbal" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Sana Iqbal</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Lahore</p>
+                            <p class="qualifications">MBBS, DDSc, CILT</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <a href="doctors/derma-sanaiqbal.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pediatrics -->
+            <div class="specialty-group fade-in-up">
+                <div class="specialty-header">
+                    <i class="fa-solid fa-baby"></i>
+                    <h3>Pediatricians</h3>
+                </div>
+                <div class="doctor-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_female.png" alt="Dr. Ayesha Malik" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Ayesha Malik</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Faisalabad</p>
+                            <p class="qualifications">MBBS, FCPS (Pediatrics)</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.5)</span>
+                            </div>
+                            <a href="doctors/pedia-ayeshamalik.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_female.png" alt="Dr. Zainab Fatima" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Zainab Fatima</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Lahore</p>
+                            <p class="qualifications">MBBS, DCH, MRCPCH</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(3.0)</span>
+                            </div>
+                            <a href="doctors/pedia-zainabfatima.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Neurology -->
+            <div class="specialty-group fade-in-up">
+                <div class="specialty-header">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Neurologists</h3>
+                </div>
+                <div class="doctor-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_male.png" alt="Dr. Bilal Tariq" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Bilal Tariq</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Faisalabad</p>
+                            <p class="qualifications">MBBS, FRCP (Neurology)</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <a href="doctors/neuro-bilaltariq.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_female.png" alt="Dr. Nida Shah" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Nida Shah</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Lahore</p>
+                            <p class="qualifications">MBBS, American Board Certified</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(3.5)</span>
+                            </div>
+                            <a href="doctors/neuro-nidashah.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dentistry -->
+            <div class="specialty-group fade-in-up">
+                <div class="specialty-header">
+                    <i class="fa-solid fa-tooth"></i>
+                    <h3>Dentists</h3>
+                </div>
+                <div class="doctor-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_male.png" alt="Dr. Hassan Javed" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Hassan Javed</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Faisalabad</p>
+                            <p class="qualifications">BDS, MSD Orthodontics</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <a href="doctors/dentist-hassanjaved.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="images/doctor_portrait_female.png" alt="Dr. Hira Qureshi" />
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Hira Qureshi</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Lahore</p>
+                            <p class="qualifications">BDS, MCPS, C-Implants</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.5)</span>
+                            </div>
+                            <a href="doctors/dentist-hiraqureshi.html" class="btn-primary btn-sm">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>MedConnect</h3>
+                <p>Making healthcare accessible to everyone. Connect with the best doctors in your city.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="doctors.html">Find Doctors</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Faisalabad, Pakistan</li>
+                    <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+                    <li><i class="fa-solid fa-envelope"></i> support@medconnect.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MedConnect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Scroll Animation Observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in-up').forEach((el) => {
+            observer.observe(el);
+        });
+
+        // Sticky Navbar
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
